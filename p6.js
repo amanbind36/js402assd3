@@ -6,7 +6,7 @@ function customMap(array, callback) {
     return result;
   }
   
-  // Example usage
+  
   const numbers = [1, 2, 3, 4];
   const doubled = customMap(numbers, x => x * 2);
   console.log(doubled); // Output: [2, 4, 6, 8]
@@ -21,7 +21,7 @@ function customMap(array, callback) {
     return result;
   }
   
-  // Example usage
+  
   const numbers1 = [1, 2, 3, 4];
   const evens = customFilter(numbers1, x => x % 2 === 0);
   console.log(evens); // Output: [2, 4]
@@ -36,7 +36,7 @@ function customMap(array, callback) {
     return accumulator;
   }
   
-  // Example usage
+
   const numbers2 = [1, 2, 3, 4];
   const sum = customReduce(numbers2, (acc, cur) => acc + cur, 0);
   console.log(sum); // Output: 10
